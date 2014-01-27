@@ -127,3 +127,5 @@ simulamcgdb: $(objects)
 locusmcgdb.o: locus.cpp
 	echo "Compilando locus.cpp"
 	g++ -g -c -ansi -pedantic -Wall -W -Wconversion -Wshadow -Wcast-qual -Wwrite-strings -Weffc++  locus.cpp -I /opt/local/include
+
+#teste
